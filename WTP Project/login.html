@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Sign In</h2>
+      <label>
+        <span>Email Address</span>
+        <input type="email" id="email">
+        <!-- <span class="errorMsg" id="errorusername">*Please enter valid username</span> -->
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" id="password">
+        <!-- <span class="errorMsg" id="errorusername">*Please enter valid username</span> -->
+      </label>
+      <button class="submit btn" type="button">Sign In</button>
+      <label><div id="change2"></div></label>
+      <p class="forgot-pass">Forgot Password ?</p>
+
+      <div class="social-media">
+        <ul>
+          <li><a href="https://facebook.com"><img src="images/social/facebook.png"></li></a>
+          <li><a href="https://twitter.com"><img src="images/social/twitter.png"></li></a>
+          <li><a href="https://linkedin.com"><img src="images/social/linkedin.png"></li></a>
+          <li><a href="https://instagram.com"><img src="images/social/instagram.png"></li></a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign in</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <label>
+          <span>Name</span>
+          <input type="text" id="name1" required>
+          <!-- <span class="errorMsg" id="errorusername">*Please enter valid username</span> -->
+        </label>
+        <label>
+          <form >
+          <span>Email</span>
+          <input type="email" id="email1" required>
+        </form>
+          <!-- <span class="errorMsg" id="errorusername">*Please enter valid username</span> -->
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" id="password1" required>
+          <!-- <span class="errorMsg" id="errorusername">*Please enter valid username</span> -->
+        </label>
+        <button type="button" class="submit2">Sign Up Now</button>
+        <label><div id="change"></div></label>
+        <label><div id="change1"></div></label>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="js/loginscript.js"></script>
+</body>
+</html>

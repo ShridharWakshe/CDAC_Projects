@@ -1,0 +1,59 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    th{ 
+        color:#fff;
+        background-color: 60cd12;
+            }
+</style>
+
+
+<table class="table table-striped">
+    <tr  class="bg-info">
+        <th>Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Number</th>
+        <th>Feedback</th>
+        
+    </tr>
+
+    <tbody id="myTable">
+        
+    </tbody>
+</table>
+
+<script>	
+
+window.addEventListener('DOMContentLoaded',()=>{
+    var sessionString = localStorage.getItem('dataarray');
+    var feedbackdata = JSON.parse(sessionString);
+
+
+   // console.log(feedbackdata);
+   console.log(feedbackdata);
+ // var feedbackdata = [{name:'abc',email:'abc',address:'abc',number:'abc',feedback:'abc'},{name:'abc',email:'abc',address:'abc',number:'abc',feedback:'abc'},{name:'abc',email:'abc',address:'abc',number:'abc',feedback:'abc'}];
+
+
+
+  buildTable(feedbackdata);  //fuction
+  function buildTable(feedbackdata){
+		var table = document.getElementById('myTable')
+		for (let i = 0; i < feedbackdata.length; i++){
+			var row = `<tr>
+							<td>${feedbackdata[i].name}</td>
+							<td>${feedbackdata[i].email}</td>
+							<td>${feedbackdata[i].address}</td>
+							<td>${feedbackdata[i].number}</td>
+							<td>${feedbackdata[i].feedback}</td>
+					  </tr>`
+			table.innerHTML += row
+
+                    }
+		}
+
+    });
+</script>
+

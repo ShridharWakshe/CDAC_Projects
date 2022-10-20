@@ -1,0 +1,11 @@
+functionality used
+
+1. Circular queue data structure
+2. packages
+3. exception handling
+4. methods in circular queue
+    - enqueue
+	- dequeue
+	- display
+	- isFull
+	- isEmpty
