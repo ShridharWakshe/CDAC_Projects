@@ -1,0 +1,12 @@
+Title- SquareFeets
+The main purpose is to develop a Real Estate Property Portal to make 
+online platform where Buyers
+ & Builders can exchange information about properties quickly,  
+effectively and inexpensively at 
+one place.
+It helps in building a website to 
+1. Advertise a property for Builders. 
+2. Search for a property, browse through properties, schedule a site 
+visit as per available slots from Builders
+
+Technologies used- MySql, Springboot, ReactJS, J2EE

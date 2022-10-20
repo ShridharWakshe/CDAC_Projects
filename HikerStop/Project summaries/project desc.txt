@@ -1,0 +1,9 @@
+Title – 	DataBucket
+
+Project Desc- 	With the advent of cloud computing based technologies, the way to store and manage data has changed completely. 
+		With more data being generated every day, there will be a lot of data to be  stored and managed in the cloud.
+ 		goal of DataBucket is  to provide a unified data management service where users can manage folders and files within a single interface.
+
+
+Tech use –  	MySQL , Springboot, AWS S3 service, Reactjs
+ 

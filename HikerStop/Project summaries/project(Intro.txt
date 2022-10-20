@@ -1,0 +1,16 @@
+Title - HikerStop
+The main purpose is to develop a onestop solution for Trekking, Adevnture Sports and many more 
+activities where people can view, get information, find and book them seamlessly and securely.
+It helps in
+1. Advertise a trek/Sport to the potential customer.
+2. Search for a trek/Sport, browse through and book according to the schedule of different events 
+3. 
+Technologies used- MySql, Springboot, ReactJS, J2EE
+
+
+
+
+
+
+
+
